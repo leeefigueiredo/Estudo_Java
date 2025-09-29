@@ -10,10 +10,18 @@ public class exercicio04 {
 	
 	System.out.println("Exercício 3 - \n\nDigite a hora que começou e a hora terminou");
 	
-	int hora1 = sc.nextInt();
-	int hora2 = sc.nextInt();
+	int horaInicial = sc.nextInt();
+	int horaFinal = sc.nextInt();
 
-
+	int duracao;
+	if(horaInicial < horaFinal) {
+		duracao = horaFinal - horaInicial;
+	}
+	else {
+		duracao = 24 - horaInicial + horaFinal;
+	}
+	
+	System.out.println("o jogo durou " + duracao + "horas" );
 	
 	sc.close();
 	}

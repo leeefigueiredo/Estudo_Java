@@ -3,7 +3,7 @@ package If_else;
 import java.util.Scanner;
 import java.util.Locale;
 
-public class exercicio9 {
+public class teste_3 {
 
 	public static void main(String[] args) {
 		

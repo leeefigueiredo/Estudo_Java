@@ -16,7 +16,7 @@ public class exercicio08 {
 
 	
 	if(renda >= 0 && renda <= 2000) {
-		System.out.printf("Sua Renda é isenta");
+		System.out.printf("Sua Renda é isenta, parabéns");
 	} else if(renda >= 2000.01 && renda <= 3000){
 		renda2 = (renda - 2000) * 0.08;
 		System.out.printf("Total a ser pago de imposto: %.2f", renda2);

@@ -22,7 +22,7 @@ public class Main {
 		double arearetangulo = (A * B);
 		
 		System.out.printf("%n%n123TRIANGULO R$ %.3f", areatriangulo);
-		System.out.printf("%n%nCIRCULO R$ %.3f", areacirculo);
+		System.out.printf("%n%ntesteCIRCULO R$ %.3f", areacirculo);
 		System.out.printf("%n%nTRAPEZIO %.3f", areatrapezio);
 		System.out.printf("%n%nTRAPEZIO %.3f", areaquadrado);
 		System.out.printf("%n%nTRAPEZIO %.3f", arearetangulo);
